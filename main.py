@@ -13,13 +13,13 @@ option = int(input('''
 
 
 if option == 1:
-    print(st.download())
+    print(f"Скачивание: {round(st.download() / 1000 / 1000, 1)} Mbit/s")
 elif option == 2:
-    print(st.upload())
+    print(f"Загрузка: {round(st.upload() / 1000 / 1000, 1)} Mbit/s")
 elif option == 3:
     servernames = []
     st.get_servers(servernames)
-    print(st.results.ping)
+    print(f"Пинг: {st.results.ping}")
 elif option == 4:
     print(f"Скачивание: {round(st.download() / 1000 / 1000, 1)} Mbit/s")
     print(f"Загрузка: {round(st.upload() / 1000 / 1000, 1)} Mbit/s")
