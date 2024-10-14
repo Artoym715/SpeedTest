@@ -26,3 +26,5 @@ elif option == 4:
     print(f"Пинг: {st.results.ping}")
 else:
     print("Пожалуйста, введите цифру от 1 до 4!")
+
+input("Нажмите Enter что выйти...")
