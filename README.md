@@ -26,3 +26,7 @@ speedtest-cli --share
 ```
 speedtest-cli --simple
 ```
+
+# SpeedTest-CLI(Exe файл)
+
+Для запуска зайдите в папку output-main и запустите файл main.exe откроется терминал выберите нужный пункт с предложенного списка.
